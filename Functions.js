@@ -1,5 +1,5 @@
 var x = 1;
-a(); 
+a();
 b();
 console.log(x);
 
