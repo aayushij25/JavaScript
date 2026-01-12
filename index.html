@@ -1,6 +1,14 @@
 <!DOCTYPE html>
 <head>
     <title>Namaste Javascript</title>
+    <style>
+        div{
+            min-width: 100px;
+            min-height: 100px;
+            padding: 30px;
+            border: 1px solid black;
+        }
+    </style>
 </head>
 <body>
 
@@ -9,6 +17,12 @@
     <button id="clickMe">Click Me</button>
     <button id="btn">Btn</button>
     <button onclick="alert(this.tagName)">Click Me This</button>
+    <br><br>
+    <div id="grandparent">
+        <div id="parent">
+            <div id="child"></div>
+        </div>
+    </div>
 
     <!-- <script src="./ExecutionContext.js"></script> -->
     <!-- <script src="./Hoisting.js"></script> -->
@@ -33,6 +47,9 @@
     <!-- <script src="./PromisesHW.js"></script> -->
     <!-- <script src="./PromiseAPI.js"></script> -->
     <!-- <script src="./AsyncAwait.js"></script> -->
-    <script src="./ThisKw.js"></script>
+    <!-- <script src="./ThisKw.js"></script> -->
+    <!-- <script src="./CallApplyBind.js"></script> -->
+    <!-- <script src="./Currying.js"></script> -->
+    <script src="./EventBubblingCapturing.js"></script>
 </body>
 </html>
